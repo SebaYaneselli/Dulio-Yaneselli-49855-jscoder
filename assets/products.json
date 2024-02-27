@@ -1,0 +1,218 @@
+[
+    {
+        "id": 1,
+        "name":"Bolso LOLA",
+        "price":1000,
+        "category":"Bolso 2024 bolsos LOLA 1000",
+        "year":"2024",
+        "imgFrontUrl":"Bolso1.png",
+        "imgBackUrl":"Bolso1A.png"
+    },
+    {
+        "id": 2,
+        "name":"Bolso RUBI",
+        "price":800,
+        "category":"Bolso 2024 bolsos RUBI 800",
+        "year":"2024",
+        "imgFrontUrl":"Bolso2.png",
+        "imgBackUrl":"Bolso2A.png"
+    },
+    {
+        "id": 3,
+        "name":"Bolso DIOSA",
+        "price":750,
+        "category":"Bolso 2024 bolsos DIOSA 750",
+        "year":"2024",
+        "imgFrontUrl":"Bolso3.png",
+        "imgBackUrl":"Bolso3A.png"
+    },
+    {
+        "id": 4,
+        "name":"Bolso SUMMER",
+        "price":800,
+        "category":"Bolso 2024 bolsos SUMMER 800",
+        "year":"2024",
+        "imgFrontUrl":"Bolso4.png",
+        "imgBackUrl":"Bolso4A.png"
+    },
+    {
+        "id": 5,
+        "name":"Bolso FELIZIA",
+        "price":1150,
+        "category":"Bolso 2024 bolsos FELIZIA 1150",
+        "year":"2024",
+        "imgFrontUrl":"Bolso5.png",
+        "imgBackUrl":"Bolso5A.png"
+    },
+    {
+        "id": 6,
+        "name":"Bolso VINTAGE",
+        "price":900,
+        "category":"Bolso 2024 bolsos VINTAGE 900",
+        "year":"2024",
+        "imgFrontUrl":"Bolso6.png",
+        "imgBackUrl":"Bolso6A.png"
+    },
+    {
+        "id": 7,
+        "name":"Bolso JULIA",
+        "price":1050,
+        "category":"Bolso 2024 bolsos JULIA 1050",
+        "year":"2024",
+        "imgFrontUrl":"Bolso7.png",
+        "imgBackUrl":"Bolso7A.png"
+    },
+    {
+        "id": 8,
+        "name":"Bolso ESPAÑA",
+        "price":1100,
+        "category":"Bolso 2024 bolsos ESPAÑA 1100",
+        "year":"2024",
+        "imgFrontUrl":"Bolso8.png",
+        "imgBackUrl":"Bolso8A.png"
+    },
+    {
+        "id": 9,
+        "name":"Cartera AURORA",
+        "price":950,
+        "category":"cartera 2024 carteras AURORA 950",
+        "year":"2024",
+        "imgFrontUrl":"Cartera1.png",
+        "imgBackUrl":"Cartera1A.png"
+    },
+    {
+        "id": 10,
+        "name":"Cartera ESTOCOLMO",
+        "price":900,
+        "category":"cartera 2024 carteras ESTOCOLMO 900",
+        "year":"2024",
+        "imgFrontUrl":"Cartera2.png",
+        "imgBackUrl":"Cartera2A.png"
+    },
+    {
+        "id": 11,
+        "name":"Cartera NIGHT",
+        "price":1000,
+        "category":"cartera 2024 carteras NIGHT 1000",
+        "year":"2024",
+        "imgFrontUrl":"Cartera3.png",
+        "imgBackUrl":"Cartera3A.png"
+    },
+    {
+        "id": 12,
+        "name":"Cartera APPLE GREEN",
+        "price":1100,
+        "category":"cartera 2024 carteras APPLE GREEN 1100",
+        "year":"2024",
+        "imgFrontUrl":"Cartera4.png",
+        "imgBackUrl":"Cartera4A.png"
+    },
+    {
+        "id": 13,
+        "name":"Cartera RUBI",
+        "price":950,
+        "category":"cartera 2024 carteras RUBI 950",
+        "year":"2024",
+        "imgFrontUrl":"Cartera5.png",
+        "imgBackUrl":"Cartera5A.png"
+    },
+    {
+        "id": 14,
+        "name":"Cartera WAVE",
+        "price":1000,
+        "category":"cartera 2024 carteras WAVE 1000",
+        "year":"2024",
+        "imgFrontUrl":"Cartera6.png",
+        "imgBackUrl":"Cartera6A.png"
+    },
+    {
+        "id": 15,
+        "name":"Cartera PICAZO",
+        "price":1200,
+        "category":"cartera 2024 carteras PICAZO 1200",
+        "year":"2024",
+        "imgFrontUrl":"Cartera7.png",
+        "imgBackUrl":"Cartera7A.png"
+    },
+    {
+        "id": 16,
+        "name":"Cartera LISA",
+        "price":800,
+        "category":"cartera 2024 carteras LISA 800",
+        "year":"2024",
+        "imgFrontUrl":"Cartera8.png",
+        "imgBackUrl":"Cartera8A.png"
+    },
+    {
+        "id": 17,
+        "name":"colección EUROPEA 90",
+        "price":1150,
+        "category":"colección Europea carteras cartera 90 1150",
+        "year":"2024",
+        "imgFrontUrl":"CE1.png",
+        "imgBackUrl":"CE1A.png"
+    },
+    {
+        "id": 19,
+        "name":"colección EUROPEA DISCO",
+        "price":1050,
+        "category":"colección Europea carteras cartera DISCO 1050",
+        "year":"2024",
+        "imgFrontUrl":"CE2.png",
+        "imgBackUrl":"CE2A.png"
+    },
+    {
+        "id": 20,
+        "name":"colección EUROPEA ITALY ",
+        "price":1100,
+        "category":"colección Europea carteras cartera ITALY",
+        "year":"2024",
+        "imgFrontUrl":"CE3.png",
+        "imgBackUrl":"CE3A.png"
+    },
+    {
+        "id": 21,
+        "name":"colección EUROPEA ROME ",
+        "price":1100,
+        "category":"colección Europea carteras cartera ROME 1100",
+        "year":"2024",
+        "imgFrontUrl":"CE4.png",
+        "imgBackUrl":"CE4A.png"
+    },
+    {
+        "id": 22,
+        "name":"colección EUROPEA RIATA",
+        "price":400,
+        "category":"colección Europea carteras cartera RIATA 400",
+        "year":"2024",
+        "imgFrontUrl":"CE5.png",
+        "imgBackUrl":"CE5A.png"
+    },
+    {
+        "id": 23,
+        "name":"colección EUROPEA GRECE ",
+        "price":600,
+        "category":"colección Europea carteras cartera GRECE 600",
+        "year":"2024",
+        "imgFrontUrl":"CE6.png",
+        "imgBackUrl":"CE6A.png"
+    },
+    {
+        "id": 24,
+        "name":"colección EUROPEA ANDONI",
+        "price":650,
+        "category":"colección Europea carteras cartera ANDONI 650",
+        "year":"2024",
+        "imgFrontUrl":"CE7.png",
+        "imgBackUrl":"CE7A.png"
+    },
+    {
+        "id": 18,
+        "name":"colección EUROPEA FLOR ",
+        "price":550,
+        "category":"colección Europea carteras cartera FLOR 550",
+        "year":"2024",
+        "imgFrontUrl":"CE8.png",
+        "imgBackUrl":"CE8A.png"
+    }
+]

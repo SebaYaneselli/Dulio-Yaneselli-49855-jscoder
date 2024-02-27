@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre la elegancia en cada detalle con nuestra exclusiva colección de carteras. Explora estilos versátiles, desde clásicos hasta modernos, diseñados para complementar tu estilo único. Encuentra la cartera perfecta que refleje tu personalidad en nuestra tienda online. ¡Añade un toque de sofisticación a tu día a día con nuestras carteras de alta calidad! Envío rápido y opciones de pago seguras disponibles.">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/glider.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9eb45967b7.js"></script>
+    <title>GLAM | Tienda online</title>
+</head>
+
+<body>
+    <script src="./js/glider.min.js"></script>
+    <header class="header">
+        <nav class="navBar">
+            <div>
+                <span class="btn__nav">
+                    <i class="fas fa-solid fa-bars"></i>
+                </span>
+                <a class="navBar__logo" href="#">GLAM | Tienda online</a>
+            </div>
+            <ul class="navBar__menu">
+                <li>
+                    <a href="#" id="btnNavProductos">PRODUCTOS</a>
+                    <ul>
+                        <li><a id="btnNavCarteras" href="#">CARTERAS</a></li>
+                        <li><a id="btnNavBolsos" href="#">BOLSOS</a></li>
+                        <li><a id="btnNavCE" href="#">COLECCION EUROPEA </a></li>
+                        <li><a id="btnNavVerTodos" href="#">VER TODOS</a></li>
+                    </ul>
+                </li>
+                <form action="" id="searchForm">
+                    <input id="searchInput" type="text" placeholder="Buscar producto">
+                    <span id="productNotFoundedAlert">
+                        <p>No se encontraron coincidencias</p>
+                    </span>
+                </form>
+                <li class="navBar__menu__btnCartMenu" id="btnCartView">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="navBar__menu__btnCartMenu-counter"></span>
+                </li>
+            </ul>
+            <span class="navBar__btnCartResponsive" id="btnCartViewResponsive">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="navBar__btnCartResponsive-counter"></span>
+            </span>
+        </nav>
+    </header>
+    <div class="cart">
+        <div class="cart__sideContainer">
+            <div class="cart__sideContainer__title">
+                <i class="fas fa-solid fa-angle-right"></i>
+                <p><i class=" fas fa-solid fa-cart-arrow-down"></i> Carrito</p>
+            </div>
+            <div class="cart__sideContainer__items" id="cart__items">
+            </div>
+            <div class="cart__sideContainer__resume">
+                <p class="cart__sideContainer__resume__total">Carrito vacio</p>
+                <button class="cart__sideContainer__resume__btnFinishBuy">Continuar compra</button>
+            </div>
+        </div>
+    </div>
+    <main class="mainInformation" id="mainInformation">
+        <div class="mainInformation__content">
+
+            <h1>TODO EN CARTERAS Y BOLSOS</h1>
+            <h2>Encontrá lo último de la moda en carteras o bolsos al mejor precio</h2>
+            <p>La moda actual en un solo lugar</p>
+        </div>
+    </main>
+            <path d="M0 70 L640 140 L1280 70 L1280 0H0z" />
+        </g>
+    </svg>
+    <div class="productsInformation" id="productsInformation">
+        <p class="productsInformation__title">Descubrí nuestros productos</p>
+        <p class="productsInformation__results"></p>
+    </div>
+    <div class="productsContainer" id="productsContainer"></div>
+    <div class="productAddToast">
+        <p><i class="fas fa-solid fa-check"></i>Producto agregado</p>
+    </div>
+    <footer class="footer">
+            <g>
+                <path d="M640 140L1280 0H0z" />
+            </g>
+        </svg>
+        <div class="footer__content">
+            <div class="footer__content__links">
+                <h4>PRODUCTOS</h4>
+                <a href="#" id="btnFooterCarteras">CARTERAS</a>
+                <a href="#" id="btnFooterBolsos">BOLSOS</a>
+                <a href="#" id="btnFooterCE">COLECCION EUROPEA</a>
+                <a href="#" id="btnFooterVerTodos">VER TODOS</a>
+            </div>
+            <div class="footer__content__social">
+                <h4>SEGUINOS EN</h4>
+                <div>
+                    <a href="https://www.instagram.com" target="/blank"><i
+                            class="fa-brands fa-instagram-square"></i></a>
+                    <a href="https://www.facebook.com" target="/blank"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href="https://twitter.com" target="/blank"><i class="fa-brands fa-twitter-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <template id="template-containerProducts">
+        <div class="productsContainer__item">
+            <div class="productsContainer__item__info">
+                <div>
+                    <img src="" alt="" class="front">
+                    <img src="" alt="" class="back">
+                </div>
+                <div class="productsContainer__item__info-container">
+                    <h3 class="productsContainer__item__info__name"></h3>
+                    <p class="productsContainer__item__info__price"></p>
+                </div>
+            </div>
+            <button class="productsContainer__item__button"><i class="fas fa-solid fa-cart-plus"></i>
+            </button>
+        </div>
+    </template>
+    <template id="template-CartProducts">
+        <div class="cart__sideContainer__items__item">
+            <div class="cart__sideContainer__items__item__main">
+                <p class="cart__sideContainer__items__item__main__name"></p>
+                <button class="cart__sideContainer__items__item__main__btnDelete">
+                    <i class="fas fa-solid fa-trash"></i>
+                </button>
+            </div>
+            <div class="cart__sideContainer__items__item__description">
+                <img src="" alt="">
+                <div class="cart__sideContainer__items__item__description__units">
+                    <p class="cart__sideContainer__items__item__description__units__number"></p>
+                    <div class="cart__sideContainer__items__item__description__units__btn">
+                        <button class="cart__sideContainer__items__item__description__units__btn__add">
+                            <i class="fas fa-solid fa-plus"></i>
+                        </button>
+                        <button class="cart__sideContainer__items__item__description__units__btn__rest">
+                            <i class="fas fa-solid fa-minus"></i>
+                        </button>
+                    </div>
+                </div>
+                <p class="cart__sideContainer__items__item__description__price"></p>
+            </div>
+        </div>
+    </template>
+    <script src="./js/script.js"></script>
+</body>
+</html>
